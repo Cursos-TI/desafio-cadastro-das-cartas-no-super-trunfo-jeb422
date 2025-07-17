@@ -16,7 +16,7 @@ int main () {
     scanf(" %c", &estado);
 
     printf("Defina um codigo para a carta com a letra informada e um numero de 01 a 04: \n");
-    scanf("%s", &codigo);
+    scanf("%s", codigo);
 
     printf("Informe o Nome da Cidade: \n");
     scanf(" %[^\n]", nome_da_cidade); // %[^\n] para pegar nomes com espaços, só avança quando apertar enter
@@ -24,10 +24,10 @@ int main () {
     printf("Informe o número de habitandes da cidade: \n");
     scanf("%i", &populacao);
 
-    printf("Informe a área desta cidade (em Km²): \n");
+    printf("Informe a área desta cidade: \n");
     scanf("%f", &area);
 
-    printf("Informe o PIB desta cidade (em milhões): \n");
+    printf("Informe o PIB desta cidade: \n");
     scanf("%lf", &PIB);
 
     printf("Informe a quantidade de pontos Turísticos: \n");
@@ -39,7 +39,7 @@ int main () {
     scanf(" %c", &estado2);
 
     printf("Defina um codigo para a carta com a letra informada e um numero de 01 a 04: \n");
-    scanf("%s", &codigo2);
+    scanf("%s", codigo2);
 
     printf("Informe o Nome da Cidade: \n");
     scanf(" %[^\n]", nome_da_cidade2);
@@ -47,10 +47,10 @@ int main () {
     printf("Informe o número de habitandes da cidade: \n");
     scanf("%i", &populacao2);
 
-    printf("Informe a área desta cidade (em Km²): \n");
+    printf("Informe a área desta cidade: \n");
     scanf("%f", &area2);
 
-    printf("Informe o PIB desta cidade (em milhões): \n");
+    printf("Informe o PIB desta cidade: \n");
     scanf("%lf", &PIB2);
 
     printf("Informe a quantidade de pontos Turísticos: \n");
